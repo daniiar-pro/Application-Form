@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(141, 43, 4);
+    color: white;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 50;
+  }
+  
+  .container {
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+  
+  h1,
+  p {
+    margin-left: 35px;
+  }
+  
+  h2 {
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+  
+  .section-a {
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+  }
+  
+  .blank {
+    position: absolute;
+    left: 30%;
+  }
+  
+  .name {
+    margin-bottom: 10px;
+  }
+  
+  .address {
+    margin-bottom: 10px;
+  }
+  
+  .email {
+    margin-bottom: 10px;
+  }
+  
+  .grade {
+    margin-bottom: 10px;
+  }
+  
+  .phone {
+    margin-bottom: 10px;
+  }
+  
+  .genders {
+    margin-left: 50px;
+  }
+  
+  .date,
+  .dates {
+    position: absolute;
+    top: 510px;
+  }
+  
+  .dates {
+    left: 30%;
+    width: 170px;
+  }
+  
+  .section-c {
+    margin-top: 70px;
+    margin-left: 35px;
+  }
+  
+  .wishs {
+    margin-bottom: 8px;
+    margin-left: 15px;
+  }
+  
+  #degrees {
+    position: absolute;
+    left: 280px;
+    top: 827px;
+  }
+  
+  .txt,
+  .btn {
+    margin-left: 20px;
+  }
+  
+  .btn {
+    margin-top: 10px;
+  }
+  
+  h4 {
+    font-weight: 900;
+  }
+  

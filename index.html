@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head">
+      <h1>Application Form </h1>
+      <p> Note: This form is to be submitted 30 days before the starting date </p>
+    </div>
+
+    <div>
+      <h2> Personal Information</h2>
+
+      <section class="section-a">
+
+        <div class="name">
+          <label for="name"> Name</label>
+          <input type="text" name="name" id="name" class="blank" placeholder="Enter your  name..">
+        </div>
+
+        <div class="address">
+          <label for="address">Address</label>
+          <input type="text" name="address" id="address" class="blank" placeholder="Enter your  address..">
+        </div>
+
+        <div class="email ">
+          <label for="email">E-mail</label>
+          <input type="text" name="email" id="email" class="blank" placeholder="Enter your  email..">
+        </div>
+
+        <div class="grade">
+          <label for="grade">Grade</label>
+          <input type="text" name="grade" id="grade" class="blank" placeholder="Enter your  grade..">
+        </div>
+
+        <div class="phone">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" class="blank" placeholder=" +48 ">
+        </div>
+    </div>
+    </section>
+
+    <section class="section-b">
+      <h2> Gender </h2>
+
+      <div class="genders">
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="other" id="other">
+
+        <div class="date"> <label for="date">Date</label> </div>
+        <input type="date" name="date" class="dates" id="date">
+
+      </div>
+
+    </section>
+
+    <section class="section-c">
+
+      <h3> Check all that apply </h3>
+
+      <div class="wishs">
+        <input type="checkbox" id="box1" name="box1">
+        <label for="box1">I want to learn JavaScript </label>
+      </div>
+
+      <div class="wishs">
+        <input type="checkbox" id="box2" name="box2">
+        <label for="box2">I want to learn React </label>
+      </div>
+
+      <div class="wishs">
+        <input type="checkbox" id="box3" name="box3">
+        <label for="box3">I want to learn HTML </label>
+      </div>
+
+      <div class="wishs">
+        <input type="checkbox" id="box4" name="box4">
+        <label for="box4">I want to learn CSS </label>
+      </div>
+
+      <div class="wishs">
+        <input type="checkbox" id="box5" name="box5">
+        <label for="box5">I want to learn Python </label>
+      </div>
+
+      <div class="wishs">
+        <input type="checkbox" id="box6" name="box6">
+        <label for="box6">I want to learn C# </label>
+      </div>
+
+      <div class="wishs"> <label for="degrees">Education Level:</label> </div>
+
+      <select id="degrees">
+
+        <option value="Bachelor"> Bachelor</option>
+        <option value="Master"> Master</option>
+        <option value="Doctor">Doctor</option>
+        <option value="Pro">Pro</option>
+        <option value="MegaPro">MegaPro</option>
+      </select>
+
+      <section class="section-d">
+        <h4>Essay Section</h4>
+        <label for="text"></label>
+        <textarea name="text" id="text" cols="20" rows="7" class="txt"> Your essay here...</textarea>
+        <div>
+          <button class="btn">Submit </button>
+          <button class="btn">Cancel</button>
+
+        </div>
+
+      </section>
+
+    </section>
+
+  </div>
+
+  </div>
+
+</body>
+
+</html>
